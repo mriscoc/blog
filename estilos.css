@@ -1,0 +1,382 @@
+@charset "utf-8";
+.post-body {
+	LINE-HEIGHT: 140%
+}
+/* CSS Document */
+
+/*----------------------------------------------
+Blogger Template Style
+Name:     MagicTech
+Designer: Miguel A. Risco
+URL:      mrisco.accesus.com
+based in Motor Cycled Template
+----------------------------------------------- */
+
+/*
+Variable definitions
+====================
+   <Variable name="mainBgColor" description="Main Background Color"
+             type="color" default="#c0c0c0" value="#c0c0c0">
+   <Variable name="mainTextColor" description="Text Color"
+             type="color" default="#555555" value="#555555">
+   <Variable name="pageHeaderColor" description="Blog Title Color"
+             type="color" default="#ffffee" value="#ffffee">
+   <Variable name="blogDescriptionColor" description="Blog Description Color"
+             type="color" default="#ffffee" value="#ffffee">
+   <Variable name="linkColor" description="Link Color"
+             type="color" default="#444" value="#444444">
+   <Variable name="hoverLinkColor" description="Link Hover Color"
+             type="color" default="#007" value="#000077">
+   <Variable name="dateHeaderColor" description="Date Header Color"
+             type="color" default="#555544" value="#555544">
+   <Variable name="sidebarHeaderColor" description="Sidebar Title Color"
+             type="color" default="#555544" value="#555544">
+   <Variable name="sidebarTextColor" description="Sidebar Text Color"
+             type="color" default="#000000" value="#000000">
+
+   <Variable name="bodyFont" description="Text Font" type="font"
+             default="normal normal 80% 'tahoma Trebuchet MS', lucida, helvetica, sans-serif" value="normal normal 80% 'tahoma Trebuchet MS', lucida, helvetica, sans-serif">
+*/
+			 
+  /* Primary layout */
+
+body	{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #555555;
+  background: #394C6A url(newversion/images/fondo.jpg) center no-repeat;
+  }
+
+img  {
+  border: none;
+  }
+
+.clear { 
+  clear: both;
+}
+
+  /* Wrapper */
+
+#outer-wrapper  {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  width: 820px;
+  font: normal normal 75% 'tahoma Trebuchet MS', lucida, helvetica, sans-serif;
+  }
+  
+  /* Header */
+
+#header-wrapper  {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: url(http://mriscoc.googlepages.com/cabecera.jpg) no-repeat; 
+  }
+
+#blog-header h1  {
+  font-size: 20px;
+  text-align: left;
+  color: #ffffee;
+  }
+  
+#header .description {
+  font-size: 110%;
+  text-align: left;
+  padding: 3px 20px 10px 23px;
+  margin: 0;
+  line-height:140%;
+}
+
+#BordeIz {
+  width: 10px;
+  background: url(http://bp1.blogger.com/_8HSRtzwg9f4/Rt1oSPuiLXI/AAAAAAAABYU/Y36mA321pq0/s400/sombraIz.png)
+ repeat-y;
+}
+  
+#BordeDe {
+  width: 10px;
+  background: url(http://bp1.blogger.com/_8HSRtzwg9f4/Rt1oXPuiLYI/AAAAAAAABYc/2TnL05RqiBc/s400/sombraDe.png)
+ repeat-y;
+}
+
+  /* Inner layout */
+
+#lsidebar-wrapper {
+  width: 130px;
+  background:#000000;
+}
+
+#lsidebar {
+  color: #ffffff;
+  padding: 10px 5px 0 5px;
+  }
+  
+#main-wrapper  {
+  width: 510px;
+  border: 0;
+  background: #ffffff;
+}
+
+#main  {
+  padding: 10px;
+  margin: 0;
+  }
+
+#sidebar-wrapper  {
+  width: 160px;
+  background: #E0F0F8;
+  border-left: 1px #0000FF dashed;
+}
+
+#sidebar {
+  color: ##000000;
+  padding: 10px 5px;
+  }
+
+ 
+  /* Bottom layout */
+
+
+#footer  {
+  clear: left;
+  margin: 0;
+  padding: 0 20px;
+  border: 0;
+  text-align: left;
+  }
+  
+#footer p  {
+  text-align: left;
+  margin: 0;
+  padding: 10px 0;
+  font-size: x-small;
+  background-color: transparent;
+  color: #999;
+  }
+
+#footer .widget	{
+  text-align: left;
+  margin: 0;
+  padding: 10px 0;
+  background-color: transparent;
+}
+
+  /* Default links   */
+
+a:link, a:visited {
+  font-weight : bold; 
+  text-decoration : none;
+  color: $linkColor;
+  background: transparent; 
+  }
+
+a:hover {
+  font-weight : bold; 
+  text-decoration : underline;
+  color: $hoverLinkColor;
+  background: transparent; 
+  }
+
+a:active {
+  font-weight : bold; 
+  text-decoration : none;
+  color: #998;
+  background: transparent;  
+  }
+
+  
+  /* Typography */
+  
+#main p, #sidebar p {
+  line-height: 140%;
+  margin-top: 3px;
+  margin-bottom: 1em;
+  }
+  
+.post-body {
+  line-height: 140%;
+  } 
+
+h2, h3, h4, h5  {
+  margin: 25px 0 0 0;
+  padding: 0;
+  }
+
+h2  {
+  font-size: small;
+  }
+
+h2.date-header { 
+  color: $dateHeaderColor;
+}
+
+.post h3 {
+  margin-top: 5px;
+  font-size: 120%;
+}
+
+h3.post-title {
+  margin-top: 5px;
+  font-size: medium;
+  color: #000
+  }
+
+.post-footer { 
+  font-style: italic;
+}
+
+.sidebar h2 { 
+  color: $sidebarHeaderColor;
+}
+
+.sidebar .widget { 
+  margin: 12px 0 13px 0;
+  padding: 0;
+}
+
+.main .widget { 
+  margin: 12px 0 0 0 ;
+}
+
+ul  {
+  margin: 0 0 25px 0;
+  }
+
+
+li  {
+  line-height: 160%;
+  }
+
+#sidebar ul   {
+  padding-left: 10px;
+  padding-top: 3px;
+  }
+
+#sidebar ul li {
+  list-style: square outside;
+  padding: 0;
+  margin: 0 10px;
+  }
+  
+.widget-content { 
+  margin-top: 0.5em;
+}
+
+#AdSense1 {
+text-align:center;
+}
+
+/* Profile 
+----------------------------------------------- */
+
+profile-datablock  {
+  margin: 3px 0 5px 0;
+  line-height: 140%;
+  }
+
+.profile-textblock { 
+  margin-left: 0;
+}
+  
+.profile-img {
+/* display:inline; */
+  float: left;
+  margin: 0 10px 5px 0;
+  border:4px solid #ccb; 
+}
+ 
+#comments  {
+  border: 0;
+  border-top: 1px dashed #eed;
+  margin: 10px 0 0 0;
+  padding: 0;
+  }
+
+#comments h4  {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }  
+
+#comments dl dt   {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 35px;
+  padding: 1px 0 0 18px;
+  background: transparent url(http://www.blogblog.com/moto_mr/commentbug.gif) top left no-repeat;
+  color: #bba;
+  }
+
+#comments dl dd  {
+  padding: 0;
+  margin: 0;
+  }
+
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+.feed-links {
+  clear: both;
+  line-height: 2.5em;
+}
+
+#tagswords {
+ font-size: 1px;
+ font-color:#ccc;
+ color:gray;
+}
+
+.codediv {
+PADDING: 5px;
+MARGIN: 0 auto 0 auto;
+BORDER: #101010 1px dashed;
+OVERFLOW: auto;
+WIDTH: 95%;
+HEIGHT: 10em;
+background: #ffffff;
+}
+
+.r-img {
+FLOAT: right; MARGIN-LEFT: 10px;
+}
+
+.l-img {
+FLOAT: left; MARGIN-RIGHT: 10px;
+}
+
+.r-img, .l-img {
+MARGIN-BOTTOM: 5px;
+text-align:center;
+font-size: 10px;
+line-height: 95%;
+}
+
+#blog-pager-newer-link {
+  float: left;
+ }
+ 
+#blog-pager-older-link {
+  float: right;
+ }
+ 
+#blog-pager {   
+  text-align: center; 
+ }
+
+/* Page structure tweaks for layout editor wireframe */
+
+body#layout #outer-wrapper { 
+  padding-top: 0;
+ }
+body#layout #header, body#layout #content-wrapper, body#layout #footer { 
+  padding: 0;
+ }
+ 
