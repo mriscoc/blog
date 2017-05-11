@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----------------------------------------------
+Blogger Template Style
+
+Name:     MagicTech
+Designer: Miguel A. Risco
+URL:      mrisco.accesus.com
+version:  2.5
+----------------------------------------------- 
+
+2.5  remove of HEIGHT attribute in codediv class
+
+----------------------------------------------- */
+
+/* Primary layout */
+
+body	{
+  margin: 0;
+  padding: 0;
+  background: url(http://lh5.google.com/mriscoc/RtIqAPuiJeI/AAAAAAAABCs/k-JT11kf15g/fondo.jpg) center no-repeat;
+}
+
+.clear { 
+  clear: both;
+}
+
+img {
+  border: none;
+  }
+  
+/* ---( layout structure )---*/
+
+#outer-wrapper  {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  width: 95%;
+}
+
+  /* Header */
+
+#header-wrapper  {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: url(http://mriscoc.googlepages.com/cabecera.jpg) no-repeat;
+  height: 120px;
+  background-color:#000;
+  }
+
+#BordeIz {
+  width: 10px;
+  background: url(http://bp0.blogger.com/_8HSRtzwg9f4/RuXYY_uiL3I/AAAAAAAABfE/qvotzGnGGc8/s400/sombraIz.jpg)
+ repeat-y;
+}
+  
+#BordeDe {
+  width: 10px;
+  background: url(http://bp3.blogger.com/_8HSRtzwg9f4/RuXYpvuiL4I/AAAAAAAABfM/d6IgjvQiTa4/s400/sombraDe.jpg)
+ repeat-y;
+}
+
+/* Layout */
+
+#Label1{
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#PlusOne1{
+	text-align:center;
+}
+
+#lsidebar {
+padding: 10px 5px 0 5px;
+}
+
+#lsidebar-wrapper  {
+  width: 170px;
+/*  text-align:center; */
+  }
+
+#sidebar {
+padding: 10px 5px;
+}
+
+#sidebar-wrapper  {
+  width: 170px;
+  border-left: 1px #0000C0 dashed;
+/*  text-align:center; */
+  }
+
+#main  {
+padding: 10px;
+margin: 0;
+}
+
+#main-wrapper  {
+border: 0;
+}
+
+/* Bottom layout */
+
+#footer  {
+  clear: left;
+  margin: 0;
+  padding: 0 5px;
+  border: 0;
+  text-align: left;
+  }
+  
+#footer p  {
+  text-align: left;
+  margin: 0;
+  padding: 10px 0;
+  font-size: x-small;
+  background-color: transparent;
+  color: #010101;
+  }
+
+#footer .widget	{
+  text-align: left;
+  margin: 0;
+  background-color: transparent;
+}
+
+  /* Default links   */
+
+#main a:link, #main a:visited  {
+  font-weight : bold; 
+  text-decoration : none;
+  color: $linkColor;
+  }
+
+#main a:hover {
+  font-weight : bold; 
+  text-decoration : underline;
+  color: $hoverLinkColor;
+  }
+ 
+  /* Typography */
+  
+#main p, #sidebar p, #lsidebar p {
+  line-height: 140%;
+}
+  
+#lsidebar a, #lsidebar a:hover, #lsidebar a:visited {
+  font-weight : normal;
+  Color: $lsidebarLinkColor;
+}
+
+#sidebar a:link, #sidebar a:hover, #sidebar a:visited {
+  font-weight : normal;
+  Color: $sidebarLinkColor;
+}
+
+.post-body {
+  line-height: 140%;
+} 
+
+h2, h3, h4, h5  {
+/*  margin: 10px 0 0 0;*/
+  margin: 0;
+  padding: 0;
+}
+
+h2  {
+  font-size: small;
+}
+
+h2.date-header { 
+  color: $dateHeaderColor;
+  padding: 5px 0;
+}
+
+.post h3 {
+  margin-top: 5px;
+  font-size: 120%;
+}
+
+h3.post-title {
+  font-size: medium;
+  }
+
+.post img {
+  padding: 6px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+}
+
+.post-footer {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px #C0C0C0 solid;
+}
+
+.sidebar h2 { 
+  color: $sidebarHeaderColor;
+}
+
+.sidebar .widget { 
+/*  margin: 12px 0 13px 0;*/
+  margin:0 ;
+  padding: 0;
+}
+
+.main .widget { 
+/* margin: 12px 0 0 0 ; */
+  margin:0 ;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0px;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding-left: 14px;
+  margin-bottom: 3px;
+  background: url(http://mriscoc.googlepages.com/tictac_orange.gif) no-repeat 0 6px;
+}
+  
+.widget-content { 
+/*  margin-top: 0.5em; */
+}
+
+/* Profile 
+----------------------------------------------- */
+
+profile-datablock  {
+  margin: 3px 0 5px 0;
+  line-height: 140%;
+  }
+
+.profile-textblock { 
+  margin-left: 0;
+}
+  
+.profile-img {
+/* display:inline; */
+  float: left;
+  margin: 0 10px 5px 0;
+  border:4px solid #ccb; 
+}
+ 
+
+/* Others 
+----------------------------------------------- */
+
+.feed-links {
+  clear: both;
+  line-height: 2.5em;
+}
+
+#tagswords {
+ font-size: 1px;
+ font-color:#FEFEFE;
+ color:#FEFEFE;
+}
+
+.codediv {
+PADDING: 5px;
+MARGIN: 0 auto 0 auto;
+BORDER: #101010 1px dashed;
+OVERFLOW: auto;
+WIDTH: 95%;
+/* HEIGHT: 10em; */
+background: #fffff0;
+}
+
+.r-img {
+FLOAT: right; MARGIN-LEFT: 10px;
+}
+
+.l-img {
+FLOAT: left; MARGIN-RIGHT: 10px;
+}
+
+.r-img, .l-img {
+  MARGIN-TOP: 5px;
+  MARGIN-BOTTOM: 5px;
+  text-align:center;
+  font-size: 10px;
+  line-height: 100%;
+  border: 0;
+}
+
+.r-img img, .l-img img {
+/*  border: 2px #000000 solid;*/
+}
+
+.bbrecpost{
+  padding-left: 14px;
+  margin-bottom: 3px;
+  background: url(http://www.blogblog.com/tictac/tictac_orange.gif) no-repeat 0 6px;
+}
+
+#AdSense1 {
+text-align:center;
+}
+
+#blog-pager-newer-link {
+  float: left;
+}
+
+#blog-pager-older-link {
+  float: right;
+}
+
+#blog-pager {   
+  text-align: center; 
+  padding: 5px;
+  margin-top: 10px;
+  background: $BgColor;
+  border: 2px #000000 solid;
+  font-size: 120%;
+  height: 20px;
+  color: #ffffff;
+ }
+
+#blog-pager a:link, #blog-pager a:visited {
+  color: #ffffff;
+} 
+
+#blog-posts hfeed{
+  border-top: 1px #000000 solid;
+}
+
+/*   Start of Flickr Badge
+Las imágenes son envueltas en divs clasificadas como "flickr_badge_image" con ids "flickr_badge_imageX" donde "X" es un número entero especificando una posición ordinaria. ¡A continuación encontrarás algunos estilos para que comiences!
+*/
+#flickr_badge_uber_wrapper {text-align:center; width:150px;}
+#flickr_badge_wrapper {padding:10px 0 10px 0;}
+.flickr_badge_image {margin:0 10px 10px 10px;}
+.flickr_badge_image img {border: 1px solid black !important;}
+#flickr_badge_source {text-align:left; margin:0 10px 0 10px;}
+#flickr_badge_icon {float:left; margin-right:5px;}
+#flickr_www {display:block; padding:0 10px 0 10px !important; font: 11px Arial, Helvetica, Sans serif !important; color:#3993ff !important;}
+#flickr_badge_uber_wrapper a:hover,
+#flickr_badge_uber_wrapper a:link,
+#flickr_badge_uber_wrapper a:active,
+#flickr_badge_uber_wrapper a:visited {text-decoration:none !important; background:inherit !important;color:#FFCC00;}
+#flickr_badge_wrapper {}
+#flickr_badge_source {padding:0 !important; font: 11px Arial, Helvetica, Sans serif !important; color:#FFFFFF !important;}
+
+/* Page structure tweaks for layout editor wireframe */
+
+body#layout #outer-wrapper { 
+  padding-top: 0;
+ }
+body#layout #header, body#layout #content-wrapper, body#layout #footer { 
+  padding: 0;
+ }
+ 
+
